@@ -1,0 +1,9 @@
+
+import cv2
+def main():
+    imgpath="C:\\Users\\Dell\\Desktop\\vision for blind\\standard_test_images\\cameraman.tif"
+    img = cv2.imread(imgpath)
+    cv2.imshow('lena',img)
+    cv2.waitkey(0)
+    cv2.destroyAllwindows()
+ 

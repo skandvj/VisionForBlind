@@ -1,0 +1,30 @@
+
+THRESHOLDING
+
+import cv2
+import numpy as np
+
+img = cv2.imread('C:/Users/Dell/Desktop/vision for blind/standard_test_images/1.tif')
+retval, threshold = cv2.threshold(img, 12, 255, cv2.THRESH_BINARY)
+cv2.imshow('original',img)
+cv2.imshow('threshold',threshold)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+GRAYSCALE THRESHOLDING
+
+
+import cv2
+import numpy as np
+
+img = cv2.imread('C:/Users/Dell/Desktop/vision for blind/standard_test_images/1.tif')
+retval, threshold = cv2.threshold(img, 12, 255, cv2.THRESH_BINARY)
+cv2.imshow('original',img)
+cv2.imshow('threshold',threshold)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+
+##Kernel to help us translate our data to a plausibly infinite number of dimensions in order to find one that has linear separability.
+
+

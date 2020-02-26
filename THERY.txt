@@ -1,0 +1,1 @@
+An algorithm which acts as eyes of Blind Person.   Using Facial Recognition and GoogleText-to-Speech(GTTS) whatever Object or Person comes in the range of camera get Recognized and get converted into Audio signals using GTTS and Transferred through headphones
